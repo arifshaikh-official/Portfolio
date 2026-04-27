@@ -193,7 +193,7 @@ const TargetCursor = ({
 
       isActiveRef.current = true;
       gsap.ticker.add(tickerFnRef.current);
-
+      
       gsap.to(activeStrengthRef, { current: 1, duration: hoverDuration, ease: 'power2.out' });
 
       corners.forEach((corner, i) => {
@@ -319,5 +319,3 @@ const TargetCursor = ({
 };
 
 export default TargetCursor;
-
-

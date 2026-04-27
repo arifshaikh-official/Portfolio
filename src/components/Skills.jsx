@@ -5,7 +5,7 @@ import { SiMongodb } from "react-icons/si"
 
 const Skills = () => {
   return (
-    <div id="skills" className="relative px-4 sm:px-8 mt-5">
+    <div id="skills" className="relative px-4 sm:px-8 mt-5 lg:mt-6">
 
       <h1 className="flex justify-center text-center 
         text-6xl sm:text-6xl md:text-5xl 
